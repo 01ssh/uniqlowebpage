@@ -1,0 +1,150 @@
+.bandeau {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+}
+
+body {
+  margin: 0%;
+}
+
+.bandeau ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.bandeau img {
+  width: 25px;
+}
+.bandeau li{
+    padding: 0 20px 0 0;
+}
+
+.bandeau a {
+    margin: 0 200px 10 5px;
+  text-decoration: none;
+  color: #898989;
+  font-size: 15px;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 20px 0 20px;
+}
+
+.recherche {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  margin: 0 0 0 200px;
+  
+}
+
+.recherche img {
+  width: 20px;
+  padding: 0 5px 0 5px;
+  border: solid 1px black;
+  border-left: none;
+}
+
+.recherche input{
+  text-align: left;
+  padding: 0 0 0 20px;
+
+}
+.search {
+  width: 100%;
+  height: 40px;
+  border-radius: 0px;
+  align-items: center;
+  border: solid 1px black;
+ text-align: center;
+ 
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: flex-end;
+}
+
+.login,
+.panier {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login img,
+.panier img {
+  width: 20px;
+}
+
+.login button,
+.panier button {
+  background: none;
+  border: none;
+}
+
+.link a,
+.panier a {
+  text-decoration: none;
+  color: black;
+}
+
+.gender a{
+    text-decoration: none;
+}
+.gender li {
+    padding: 0 10px 0 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    
+}
+
+* {
+  font-family: "Urbanist", sans-serif;
+}
+/* MENU GENRE */
+
+.ctn-ctg {
+  display: flex;
+  justify-content: center;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  font-weight: bold;
+  list-style: none;
+  justify-content: space-around;
+  margin: 20px 0 0 0;
+}
+
+.gender a {
+  color: black;
+}
+/* MENU GENRE */
+
+.herobanner {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
