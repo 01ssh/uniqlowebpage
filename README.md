@@ -1,3 +1,5 @@
 # uniqlowebpage
-recreate uniqlo homepage
-![Uploading Screenshot Uniqlo Webpage.png…]()
+
+recreate uniqlo homepage with html css 
+
+![screenshot](/homepage.png)
